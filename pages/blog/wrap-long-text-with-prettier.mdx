@@ -1,0 +1,20 @@
+# Wrap Long Text with Prettier
+
+Pernah menulis file `md` atau `mdx` terlalu panjang?
+
+![image](https://user-images.githubusercontent.com/78015359/221121366-cd94c3f0-2881-4e5e-b0f6-0c7bf51dcbed.png)
+
+Karena terlalu panjang, akhirnya sulit untuk dibaca.
+
+Untuk menagatasinya, buat file `.prettierrc` di root project, lalu isi dengan:
+
+```json copy filename=".prettierrc"
+{
+  "proseWrap": "always",
+  "printWidth": 80
+}
+```
+
+Berikut hasilnya:
+
+![image](https://user-images.githubusercontent.com/78015359/221121469-e9969a03-bc33-4c14-a19b-d948899ab43a.png)
